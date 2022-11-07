@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 9 - OOP</title>
+</head>
+
+<body>
+    <!-- Nama : Ahmad Haziq Mu'izzaddin Wafiq -->
+    <!-- Absen : 03 -->
+    <!-- Jurusan : PPL -->
+</body>
+
+<script>
+    class Tumbuhan {
+        
+        //Object 1
+        constructor() {
+            this.nama = 'Mangga'
+            this.jenis = 'buah-buahan'
+            this.warna = 'oranye'
+        }
+
+        tumbuh() {
+            console.log("Tumbuhan ini dapat tumbuh")
+        }
+
+        berbuah(buah) {
+            console.log("Tumbuhan ini dapat berbuah dengan nama buah " + buah)
+        }
+    }
+    Mangga = new Tumbuhan()
+
+    //Object 2
+    Brokoli = new Tumbuhan()
+    Brokoli.nama = 'Brokoli'
+    Brokoli.jenis = 'Sayuran'
+    Brokoli.warna = 'Hijau'
+
+    //Object 3
+    Matahari = new Tumbuhan()
+    Matahari.nama = 'Bunga Matahari'
+    Matahari.jenis = 'Bunga'
+    Matahari.warna = 'Kuning'
+
+    console.log(Mangga, Brokoli, Matahari)
+</script>
+</html>
